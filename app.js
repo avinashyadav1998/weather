@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const request = require("request");
 
-const  apiKey = '7c71771dd6ca97d81fc4c61e23201595';  
+const  apiKey = '----';  
 // apikey is unique key and get it from openweathermap.com
 
 app.use(bodyParser.json());
